@@ -22,34 +22,34 @@ efforts.
 
 Nevertheless, if you wish to attempt to get this code running, here
 is a likely-incomplete list of the known requirements:
-1. Python 2.6 or 2.7
-2. Ensure the distributed modules are on the $PYTHONPATH.
-2. Module dependencies
-  * argparse (for Python 2.6)
-  * nltk (with Wordnet and Framenet corpora)
-  * psutil
-  * pyutilib.Enum
-  * simplejson
-  * srilm_swig
-  * stemming
-3. External software
-  * Gurobi
-  * LPsolve
-  * SRILM
-  * Stanford parser 2.0.4 or similar older version which produces projective trees
-  * SEMAFOR
-  * RASP
-  * TagChunk
-4. Data
-  * Dependency representation of Penn treebank for interfaces/treebank/depmodel.py (not necessary)
-  * Clarke & Lapata datasets for compression (contact me for dataset splits)
-  * Pyramid evaluation data for fusion, available from NIST
-5. Update all paths in the code with appropriate paths to your installations
-6. Launch LM servers through interfaces/srilm.py and optionally PTB servers through interfaces/treebank/depmodel.py
-7. Entry points to the code are transduction/compression.py and transduction/pyrfusion.py.
-  * Run these with --help for details.
-  * Structural configurations are chosen by selecting features through transduction/featconfigs.py. The default options have simple names like 'word', 'ngram', 'dep' and are defined at the top of the file.
-8. Contact me if you want the model files or system outputs from my experiments.
+* Python 2.6 or 2.7
+* Ensure the distributed modules are on the $PYTHONPATH.
+* Module dependencies
+1. argparse (for Python 2.6)
+2. nltk (with Wordnet and Framenet corpora)
+3. psutil
+4. pyutilib.Enum
+5. simplejson
+6. srilm_swig
+7. stemming
+* External software
+1. Gurobi
+2. LPsolve
+3. SRILM
+4. Stanford parser 2.0.4 or similar older version which produces projective trees
+5. SEMAFOR
+6. RASP
+7. TagChunk
+* Data
+1. Dependency representation of Penn treebank for interfaces/treebank/depmodel.py (not necessary)
+2. Clarke & Lapata datasets for compression (contact me for dataset splits)
+3. Pyramid evaluation data for fusion, available from NIST
+* Update all paths in the code with appropriate paths to your installations
+* Launch LM servers through interfaces/srilm.py and optionally PTB servers through interfaces/treebank/depmodel.py
+* Entry points to the code are transduction/compression.py and transduction/pyrfusion.py.
+1. Run these with --help for details.
+2. Structural configurations are chosen by selecting features through transduction/featconfigs.py. The default options have simple names like 'word', 'ngram', 'dep' and are defined at the top of the file.
+* Contact me if you want the model files or system outputs from my experiments.
 
 
 Support
