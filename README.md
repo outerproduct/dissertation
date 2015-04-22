@@ -41,13 +41,15 @@ is a likely-incomplete list of the known requirements:
   * RASP
   * TagChunk
 * Data
-  * Dependency representation of Penn treebank for interfaces/treebank/depmodel.py (not necessary)
+  * Dependency-converted Penn treebank for interfaces/treebank/depmodel.py (not necessary for default features)
   * Clarke & Lapata datasets for compression (contact me for dataset splits)
   * Pyramid evaluation data for fusion, available from NIST
 * Update all paths in the code with appropriate paths to your installations
-* Launch LM servers through interfaces/srilm.py and optionally PTB servers through interfaces/treebank/depmodel.py
+* Launch servers
+  * LM servers through interfaces/srilm.py
+  * Optionally, PTB servers through interfaces/treebank/depmodel.py
 * Entry points to the code are transduction/compression.py and transduction/pyrfusion.py.
-  * Run these with --help for details.
+  * Run these with --help for command-line options.
   * Structural configurations are chosen by selecting features through transduction/featconfigs.py. The default options have simple names like 'word', 'ngram', 'dep' and are defined at the top of the file.
 * Contact me if you want the model files or system outputs from my experiments.
 
