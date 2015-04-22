@@ -36,14 +36,14 @@ is a likely-incomplete list of the known requirements:
   * [Gurobi 6.0](http://www.gurobi.com/) (offers academic licensing)
   * [LPsolve](http://lpsolve.sourceforge.net/)
   * [SRILM](http://www.speech.sri.com/projects/srilm/)
-  * [Stanford dependency parser](http://nlp.stanford.edu/software/lex-parser.shtml#Download) 2.0.4 or similar older version which produces projective trees
+  * [Stanford parser 2.0.4](http://nlp.stanford.edu/software/lex-parser.shtml#Download) (or similar older version which produces projective trees)
   * [SEMAFOR](http://www.ark.cs.cmu.edu/SEMAFOR/)
   * [RASP 3.x](http://users.sussex.ac.uk/~johnca/rasp/)
   * [TagChunk](https://www.umiacs.umd.edu/~hal/TagChunk/)
 * Data
   * Dependency-converted [Penn treebank](https://catalog.ldc.upenn.edu/LDC99T42) for `interfaces/treebank/depmodel.py` (not necessary for default features)
   * [Clarke & Lapata datasets](http://jamesclarke.net/research/resources) for compression (contact me for dataset splits)
-  * Pyramid evaluation data from [DUC 2005---2007](http://www-nlpir.nist.gov/projects/duc/data.html) and [TAC 2008---2011](http://www.nist.gov/tac/data/index.html) for fusion, available from NIST
+  * Pyramid evaluation data from [DUC 2005-2007](http://www-nlpir.nist.gov/projects/duc/data.html) and [TAC 2008-2011](http://www.nist.gov/tac/data/index.html) for fusion, available from NIST
 * Update all paths in the code with appropriate paths to your installations
 * Launch servers
   * LM servers through `interfaces/srilm.py`
